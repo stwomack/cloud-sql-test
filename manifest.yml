@@ -1,0 +1,7 @@
+---
+applications:
+  - name: cloud-sql-test-x
+    memory: 768M
+    instances: 1
+    random-route: true
+    path: target/cloud-sql-test-0.0.1-SNAPSHOT.jar
